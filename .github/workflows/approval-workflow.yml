@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Label when Approved
     steps:
-      - name: Label when Approved
+      - name: Label When Approved
         uses: pullreminders/label-when-approved-action@master
         env:
           APPROVALS: "1"
